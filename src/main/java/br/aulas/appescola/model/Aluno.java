@@ -16,5 +16,34 @@ public class Aluno extends Pessoa{
 	@Enumerated(EnumType.STRING)
 	private StatusAluno statusAluno;
 
+	/**
+	 * @return the matricula
+	 */
+	public String getMatricula() {
+		return matricula;
+	}
+
+	/**
+	 * @param matricula the matricula to set
+	 */
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+
+	/**
+	 * @return the statusAluno
+	 */
+	public StatusAluno getStatusAluno() {
+		return statusAluno;
+	}
+
+	/**
+	 * @param statusAluno the statusAluno to set
+	 */
+	public void setStatusAluno(StatusAluno statusAluno) {
+		this.statusAluno = statusAluno;
+	}
+
+	
 	
 }
